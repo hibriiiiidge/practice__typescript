@@ -1,3 +1,4 @@
+"use strict";
 var hasValue = true;
 var count = 10;
 // count = 'hello'
@@ -15,7 +16,7 @@ var person2 = {
         first: 'Jack',
         last: 'Smith'
     },
-    age: 22
+    age: 22,
 };
 // array
 var fruits = ['Apple', 'Banana', 'Grape'];
@@ -51,7 +52,7 @@ var clothSize = "small";
 // enum みたいに使える
 var cloth = {
     color: "white",
-    size: clothSize
+    size: clothSize,
 };
 cloth.size = 'large';
 function add2(num1, num2) {
